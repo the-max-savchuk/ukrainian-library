@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+
+  line-height: 1;
+  font-weight: 400;
+  color: #fff;
+
+  background-color: #000;
+}
+
+.heading-primary {
+}
+
+.heading-secondary {
+  color: #fff;
+  font-size: 7.2rem;
+  font-weight: 500;
+}
+
+/* BUTTONS */
+
+.btn:link,
+.btn:visited {
+  color: #fff;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  background-color: #222222;
+  border-radius: 38px;
+
+  transition: 0.3s all;
+}
+
+.btn:hover,
+.btn:active {
+  color: #eebefa;
+  background-color: #111111;
+}
+
+.btn--one {
+  padding: 1.5rem 2rem;
+}
+
+.btn--two {
+  padding: 1.5rem 4rem;
+}
+
+/* GRID */
+
+.grid {
+  display: grid;
+}
+
+.grid--2cols {
+  grid-template-columns: 3.5fr 2fr;
+}

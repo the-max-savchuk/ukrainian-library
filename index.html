@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link
+      href="//db.onlinewebfonts.com/c/a44207bfe4040f536c824dbbf82f5ed1?family=e-Ukraine"
+      rel="stylesheet"
+      type="text/css"
+    /> -->
+
+    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaquery.css" />
+
+    <title>Ukrainian-Library</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="heading-primary">
+        <a href="index.html" class="header-logo">Ukrainian-library</a>
+      </h1>
+    </header>
+
+    <main>
+      <section class="section-hero grid grid--2cols" id="section-hero">
+        <div class="section-content">
+          <h2 class="heading-secondary">
+            Free collection of lessons to help you learn Ukrainian
+          </h2>
+
+          <a href="#" class="btn btn--one">Start learning &RightArrow;</a>
+
+          <!-- <img
+            src="img/independence-mon.png"
+            alt="Picture of Independence monument in Kyiv, Ukraine"
+            class="hero-img"
+          /> -->
+        </div>
+      </section>
+
+      <section class="section-between" id="section-between">
+        <div class="featured-card fc1">
+          <a href="#"></a>
+          <p class="featured-text">featured-card</p>
+        </div>
+        <div class="featured-card fc2">
+          <a href="#"></a>
+          <p class="featured-text">
+            How mutually intelligible is Ukrainian with other Languages?
+          </p>
+        </div>
+        <div class="featured-card fc3">
+          <a href="#"></a>
+          <p class="featured-text">Ukrainian dialects</p>
+        </div>
+        <div class="featured-card fc4">
+          <a href="#"></a>
+          <p class="featured-text">featured-card</p>
+        </div>
+      </section>
+
+      <!-- </section> -->
+
+      <section class="section-readmore grid grid--2cols" id="section-read">
+        <div class="section-content">
+          <h2 class="heading-secondary">
+            Learn more about the history of the language and how it works
+          </h2>
+
+          <a href="#" class="btn btn--two">Read now &RightArrow;</a>
+        </div>
+      </section>
+
+      <aside class="aside-navigation">
+        <ul class="dots-navigation">
+          <li class="dot"><a href="#section-hero" class="dot-link"></a></li>
+          <li class="dot"><a href="#section-between" class="dot-link"></a></li>
+          <li class="dot"><a href="#section-read" class="dot-link"></a></li>
+        </ul>
+      </aside>
+
+      <footer class="footer">
+        <div class="footer-content">
+          <div class="footer-icons">
+            <a href="https://instagram.com/" target="_blank"
+              ><img
+                src="img/icons/instagram-filled.png"
+                class="footer-icon-img"
+                alt="social media icon"
+            /></a>
+            <a href="https://twitter.com/" target="_blank"
+              ><img
+                src="img/icons/twitter-sign.png"
+                class="footer-icon-img"
+                alt="social media icon"
+            /></a>
+            <a href="https://web.telegram.org/" target="_blank"
+              ><img
+                src="img/icons/telegram.png"
+                class="footer-icon-img"
+                alt="social media icon"
+            /></a>
+            <a href="https://discord.com/" target="_blank"
+              ><img
+                src="img/icons/discord.png"
+                class="footer-icon-img"
+                alt="social media icon"
+            /></a>
+            <a href="https://facebook.com/" target="_blank"
+              ><img
+                src="img/icons/facebook-filled.png"
+                class="footer-icon-img"
+                alt="social media icon"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyB7yD3ssSe_a4USBENTqjqhRiAnWs9R3dc",
+        authDomain: "ukrainian-library-f57cd.firebaseapp.com",
+        projectId: "ukrainian-library-f57cd",
+        storageBucket: "ukrainian-library-f57cd.appspot.com",
+        messagingSenderId: "674418878472",
+        appId: "1:674418878472:web:71fa9257c52ac604d089bd",
+        measurementId: "G-MFRHLMHHBB",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+  </body>
+</html>
